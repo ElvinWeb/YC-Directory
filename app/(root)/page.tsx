@@ -1,3 +1,5 @@
+import SearchForm from "@/components/SearchForm";
+
 function Home() {
   return (
     <>
@@ -11,8 +13,12 @@ function Home() {
           Submit Ideas, Vote on Pitches, and Get Noticed in Virtual
           Competitions.
         </p>
+
+        <SearchForm />
       </section>
-      <section className="section_container"></section>
+      <section className="section_container">
+        
+      </section>
     </>
   );
 }
